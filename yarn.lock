@@ -156,6 +156,10 @@
   version "20.0.2"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-20.0.2.tgz#86c751121fb53dbd39bb1a08c45083da13f2dc67"
 
+"@types/node@*":
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.6.tgz#ed2c3e011cb51ccd3cf874989130f1b9ffe06069"
+
 "@types/react-dom@^15.5.1":
   version "15.5.1"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-15.5.1.tgz#f3c3e14c682785923c7d64583537df319442dec1"
@@ -171,6 +175,13 @@
 "@types/react@*", "@types/react@^15.0.33":
   version "15.0.33"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.33.tgz#442b025b3ee7d65f25c5cf495b7bd773855c079b"
+
+"@types/storybook__react@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/storybook__react/-/storybook__react-3.0.1.tgz#55e4c16798a35ecaea8d50bdb66dd6242b177cc1"
+  dependencies:
+    "@types/node" "*"
+    "@types/react" "*"
 
 abab@^1.0.3:
   version "1.0.3"
