@@ -32,6 +32,7 @@
     "typescript": "^2.4.1"
   },
   "devDependencies": {
+    "@storybook/addon-storyshots": "^3.1.7",
     "@storybook/react": "^3.1.7",
     "@types/jest": "^20.0.2",
     "@types/react-dom": "^15.5.1",
