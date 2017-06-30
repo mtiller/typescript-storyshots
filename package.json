@@ -2,7 +2,8 @@
   "name": "typescript-storyshots",
   "version": "1.0.0",
   "description": "Sample project using StoryShots, Jest and TypeScript",
-  "main": "index.js",
+  "main": "lib/src/index.js",
+  "typings": "lib/src/index.d.ts",
   "scripts": {
     "compile": "tsc",
     "test": "jest",
