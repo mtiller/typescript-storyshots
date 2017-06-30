@@ -37,6 +37,7 @@
     "@types/react-dom": "^15.5.1",
     "@types/react-test-renderer": "^15.5.1",
     "@types/storybook__react": "^3.0.1",
+    "awesome-typescript-loader": "^3.2.1",
     "jest": "^20.0.4",
     "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
