@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -30,9 +32,12 @@
     "typescript": "^2.4.1"
   },
   "devDependencies": {
+    "@storybook/react": "^3.1.7",
     "@types/jest": "^20.0.2",
+    "@types/react-dom": "^15.5.1",
     "@types/react-test-renderer": "^15.5.1",
     "jest": "^20.0.4",
+    "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
     "ts-jest": "^20.0.6"
   },
