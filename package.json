@@ -4,6 +4,7 @@
   "description": "Sample project using StoryShots, Jest and TypeScript",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc",
     "test": "jest"
   },
   "repository": {
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/xogeny/typescript-storyshots#readme",
   "dependencies": {
+    "@types/react": "^15.0.33",
+    "react": "^15.6.1",
     "typescript": "^2.4.1"
   }
 }
