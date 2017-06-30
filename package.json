@@ -1,0 +1,26 @@
+{
+  "name": "typescript-storyshots",
+  "version": "1.0.0",
+  "description": "Sample project using StoryShots, Jest and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xogeny/typescript-storyshots.git"
+  },
+  "keywords": [
+    "Jest",
+    "TypeScript",
+    "Storybook",
+    "StoryShots",
+    "React"
+  ],
+  "author": "Michael M. Tiller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xogeny/typescript-storyshots/issues"
+  },
+  "homepage": "https://github.com/xogeny/typescript-storyshots#readme"
+}
