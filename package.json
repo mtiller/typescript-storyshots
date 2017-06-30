@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/xogeny/typescript-storyshots/issues"
   },
-  "homepage": "https://github.com/xogeny/typescript-storyshots#readme"
+  "homepage": "https://github.com/xogeny/typescript-storyshots#readme",
+  "dependencies": {
+    "typescript": "^2.4.1"
+  }
 }
