@@ -47,17 +47,18 @@
   },
   "jest": {
     "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "\\.(jsx?|tsx?)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/lib/"
     ],
-    "testRegex": "(/test/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testRegex": "(/test/.*|\\.(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
       "ts",
       "tsx",
       "js",
+      "jsx",
       "json"
     ]
   }
