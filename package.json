@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/xogeny/typescript-storyshots#readme",
   "dependencies": {
-    "@types/react": "^15.0.33",
     "react": "^15.6.1"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.2.8",
     "@storybook/react": "^3.2.8",
     "@types/jest": "^20.0.2",
+    "@types/react": "^15.0.33",
     "@types/react-dom": "^15.5.1",
     "@types/react-test-renderer": "^15.5.1",
     "@types/storybook__react": "^3.0.1",
