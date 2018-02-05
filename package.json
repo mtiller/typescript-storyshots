@@ -28,13 +28,13 @@
   },
   "homepage": "https://github.com/xogeny/typescript-storyshots#readme",
   "dependencies": {
-    "@types/react": "^15.0.33",
     "react": "^15.6.1"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.2.8",
     "@storybook/react": "^3.2.8",
     "@types/jest": "^20.0.2",
+    "@types/react": "^15.0.33",
     "@types/react-dom": "^15.5.1",
     "@types/react-test-renderer": "^15.5.1",
     "@types/storybook__react": "^3.0.1",
@@ -47,17 +47,18 @@
   },
   "jest": {
     "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "\\.(jsx?|tsx?)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
     "testPathIgnorePatterns": [
       "/node_modules/",
       "/lib/"
     ],
-    "testRegex": "(/test/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testRegex": "(/test/.*|\\.(test|spec))\\.(jsx?|tsx?)$",
     "moduleFileExtensions": [
       "ts",
       "tsx",
       "js",
+      "jsx",
       "json"
     ]
   }
